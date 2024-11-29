@@ -12,8 +12,7 @@ class BookListPage extends StatefulWidget {
 }
 
 class _BookListPageState extends State<BookListPage> {
-  List<Map<String, dynamic>> books =
-      []; //(books) adalah nama database di dalam supabase
+  List<Map<String, dynamic>> books = []; //(books) adalah nama database di dalam supabase
 
   @override
   void initState() {
